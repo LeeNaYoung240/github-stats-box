@@ -17,13 +17,14 @@
 
 1. Fork this repository
 2. 
-3. From your new fork, go to **Settings > Secrets**
-4. Add the following secret using the **New secret** button:
+3.
+4. From your new fork, go to **Settings > Secrets**
+5. Add the following secret using the **New secret** button:
 
     - **GH_TOKEN:** The GitHub token generated above.
 
-5. Go to the **Actions** tab of your fork and click the "enable" button
-6. Edit the environment variables at the end of the file `.github/workflows/run.yml`
+6. Go to the **Actions** tab of your fork and click the "enable" button
+7. Edit the environment variables at the end of the file `.github/workflows/run.yml`
 
     - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/bokub/`**`1cc900d92b9acc15786d7553b46a2cdf`**.
     - **ALL_COMMITS:** Boolean value, If `true` it will count all commits instead of last year commits
